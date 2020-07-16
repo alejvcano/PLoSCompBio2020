@@ -13,3 +13,7 @@ The file "wt-evol.c" contains the basic code used to simulate the evolution of T
 Composition bias:
 
 The file "biascount.c" contains the code used to compute the composition bias in the entire landscape and along accesible paths to the global peak. It requires as an input a GML file with landscape details. The required initial arguments include: - output file. - noise threshold parameter \delta. - corresponding pk file with the set of sequence in the global peak. The noise threshold parameter \delta corresponding to each landscape can be found in the Supplementary Table 1.
+
+Overlap coefficient:
+
+The file "pop-overlap.R" contains the code used to compute the overlap coefficient between evolving populations.
